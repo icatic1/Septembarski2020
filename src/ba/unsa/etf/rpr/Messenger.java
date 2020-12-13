@@ -81,8 +81,7 @@ public class Messenger {
     }
 
     public List<Poruka> dajStarijeOd(Korisnik korisnik1, LocalDateTime datum) {
-        return this.filtrirajPoruke(poruka -> poruka.getPrimalac().equals(korisnik1) && (poruka.getDatumSlanja().isBefore(datum) || poruka.getDatumSlanja().isEqual(datum)));
-        //return poruke.stream().filter(poruka -> poruka.getPrimalac().equals(korisnik1) && (poruka.getDatumSlanja().isBefore(datum) || poruka.getDatumSlanja().equals(datum))).collect(Collectors.toList());
+        return this.filtrirajPoruke(poruka -> poruka.getPosiljalac().equals(korisnik1) && (poruka.getDatumSlanja().isBefore(datum) || poruka.getDatumSlanja().isEqual(datum)));
     }
 
     @Override

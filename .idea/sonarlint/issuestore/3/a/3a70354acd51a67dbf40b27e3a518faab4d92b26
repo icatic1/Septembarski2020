@@ -1,0 +1,7 @@
+
+
+java:S1192"kDefine a constant instead of duplicating this literal "Ime, prezime i nadimak ne smiju biti null!" 4 times.(å„ÒÑüÿÿÿÿ8à­âºå.
+
+java:S1192"mDefine a constant instead of duplicating this literal "Ime, prezime i nadimak ne smiju biti prazni!" 4 times.(ô„±Îıÿÿÿÿ8Ö½×ºå.
+r
+java:S1206B"PThis class overrides "equals()" and should therefore also override "hashCode()".(İ¢êÍıÿÿÿÿ8Á·º½å.
